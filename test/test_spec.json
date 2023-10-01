@@ -1,0 +1,46 @@
+{
+  "sheet_id": "150p5C3tNDHt5KJylrcpwLpK0Wrgf6zjZDgFKL5vZypA",
+  "main_sheet_range": "SW_L2_test!A1",
+  "table_keys": [
+    "name",
+    "tag",
+    "arch_type",
+    "eng_type",
+    "block",
+    "zone",
+    "cut",
+    "pair_name",
+    "pair_index",
+    "mount",
+    "mount_date",
+    "area"
+  ],
+  "writes": [
+    {
+      "sheet_range": "SW_L2_pair_count_test!A2",
+      "key": "arch_type",
+      "mask": "cut",
+      "sep": " ",
+      "method": "default"
+    },
+    {
+      "sheet_range": "SW_L2_pair_count_test!G2",
+      "key": "tag",
+      "mask": "cut",
+      "sep": " ",
+      "method": "default"
+    },
+    {
+      "sheet_range": "SW_L2_pair_count_test!J2",
+      "key": [
+        "arch_type",
+        "mount"
+      ],
+      "mask": "cut",
+      "sep": " ",
+      "method": "default"
+    }
+  ],
+  "enable": true,
+  "credentials": "GOOGLE_KF"
+}
